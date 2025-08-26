@@ -30,27 +30,32 @@ A Streamlit web app for Exploratory Data Analysis (EDA) and House Price Predicti
 
 ### 📂 Project Structure
 house-price-predictor/
+
 │── app.py                # Main entry point (links EDA & Prediction)
+
 │── eda.py                # Exploratory Data Analysis page
+
 │── model_prediction.py   # Model training & prediction page
+
 │── enhanced_house_price_dataset.csv   # Dataset
+
 │── requirements.txt      # Python dependencies
 
 
 ### 🚀 How to Run
 
-###### Clone this repository or download the project folder.
+##### Clone this repository or download the project folder.
 
 git clone https://github.com/your-username/house-price-predictor.git
 cd house-price-predictor
 
 
-###### Install dependencies.
+##### Install dependencies.
 
 pip install -r requirements.txt
 
 
-###### Run the Streamlit app.
+##### Run the Streamlit app.
 
 streamlit run app.py
 
