@@ -46,7 +46,7 @@ house-price-predictor/
 
 ##### Clone this repository or download the project folder.
 
-git clone https://github.com/your-username/house-price-predictor.git
+git clone https://github.com/Meral-Ali/house-price-predictor.git
 cd house-price-predictor
 
 
