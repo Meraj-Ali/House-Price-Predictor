@@ -15,7 +15,7 @@ def show_page():
 
     st.title("🤖 Train Model & Predict Prices")
 
-    st.header("🏡 Predict House Price")
+    st.header("🔮 Predict House Price")
 
     # Encode categorical variables
     encoded_data=pd.get_dummies(data, drop_first=True)
@@ -103,6 +103,7 @@ def show_page():
     input_encoded=pd.get_dummies(input_df)
     input_encoded=input_encoded.reindex(columns=X.columns, fill_value=0)
 
-    if st.button("🔮 Predict Price"):
+    if st.button("Predict Price"):
         prediction=best_model.predict(input_encoded)[0]
+
         st.success(f"Predicted House Price: ₹ {int(prediction):,}")
