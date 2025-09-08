@@ -1,6 +1,7 @@
 import streamlit as st
 import eda
 import model_prediction
+import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="House Price Predictor", layout='wide')
 # Sidebar 
@@ -13,3 +14,4 @@ if page=="📊 EDA":
 
 elif page=="🤖 Model & Prediction":
     model_prediction.show_page()
+
